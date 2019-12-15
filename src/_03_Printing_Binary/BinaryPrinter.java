@@ -12,14 +12,13 @@ public class BinaryPrinter {
 	}
 	
 	public void printShortBinary(short s) {
-		
 	}
 	
 	public void printIntBinary(int i) {
-		
+		System.out.println(Integer.toBinaryString(i));
 	}
 	
 	public void printLongBinary(long l) {
-		
+		System.out.println(Long.toBinaryString(l));
 	}
 }
