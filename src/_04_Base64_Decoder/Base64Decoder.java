@@ -6,7 +6,7 @@ import java.io.FileReader;
 public class Base64Decoder {
 	/*
 	 * Base 64 is a way of encoding binary data using text.
-	 * Each number 0-63 is mapped to a character. 
+	 * Each number 0-63 is mapped to a character.
 	 * NOTE: THIS IS NOT THE SAME AS ASCII OR UNICODE ENCODING!
 	 * Since the numbers 0 through 63 can be represented using 6 bits, 
 	 * every four (4) characters will represent twenty four (24) bits of data.

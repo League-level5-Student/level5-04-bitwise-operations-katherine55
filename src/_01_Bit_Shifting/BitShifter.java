@@ -10,7 +10,7 @@ public class BitShifter {
 		*/
 		
 		int num = 4; // 100
-		int numShifted = num << 3; //100000
+		int numShifted = num << 1; // 1000
 		
 		System.out.println(numShifted);
 		
